@@ -8,6 +8,7 @@ import Footer from './components/template/footer';
 import Search from './components/template/search';
 import ChatContainer from './components/chatbot/ChatContainer.jsx';
 import Chat from './components/chatbot/icons/Chat.jsx';
+import ToggleBox from './components/chatbot/ToggleBox.jsx';
 // Import static pages
 import HomePage from './components/pages/home-page';
 import ContactPage from './components/pages/contact-page';
@@ -55,6 +56,7 @@ export default class AppRouter extends Component {
             <Navbar />
             <Search />
             <Chat />
+            <ToggleBox />
             <div className="Page">
               <Switch>
                 <Route exact path="/" component={HomePage} />

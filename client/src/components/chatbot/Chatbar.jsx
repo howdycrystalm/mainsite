@@ -82,6 +82,7 @@ class Chatbar extends React.Component {
         </div>
 
         <div>
+          {/* <div className=giveSpecificClassName>*/}
           <input
             type="text"
             placeholder="Type your message here"
@@ -90,6 +91,7 @@ class Chatbar extends React.Component {
             // onKeyUp={(e) => this.props.onKeyUp.bind(this, e, e.target.value)()}
             onKeyUp={this.props.onKeyUp.bind(this)}
           />
+          {/* </div>*/}
         </div>
 
         <div>

@@ -578,3 +578,29 @@ table th {
   background-color: black;
   color: white;
 }
+/*********************************** for testing purposes ***********************************/
+.box {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.box-title {
+  font-size: 20px;
+  color: tan;
+  z-index: 2000;
+  width: 60px;
+  height: 60px;
+  background: lime;
+}
+
+.box-content {
+  width: 30px;
+  height: 30px;
+  background-color: teal;
+  color: grey;
+  font-size: 20px;
+  z-index: 2000;
+}
