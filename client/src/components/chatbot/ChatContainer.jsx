@@ -59,14 +59,12 @@ class ChatContainer extends React.Component {
             <ThemeIcon />
             <FontSizeIcon />
             <LanguageIcon />
-            {/* <Chatbar sessionId={this.state.id} />
-            <Header resetSession={this.resetSession} />*/}
+            <Chatbar sessionId={this.state.id} />
+            <Header resetSession={this.resetSession} />
           </div>
         </Menu>
         <main id="page-wrap">
           {/* props have to be in {} or ""*/}
-          <Chatbar sessionId={this.state.id} />
-          <Header resetSession={this.resetSession} />
           <div className="grey-C chat-container-E">
             <Chatbox sessionId={this.state.id} />
           </div>
