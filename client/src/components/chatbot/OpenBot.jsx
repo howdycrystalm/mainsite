@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import ReactHtmlParser from 'react-html-parser';
 import ChatIcon from './icons/ChatIcon.jsx';
 import ChatContainer from './ChatContainer.jsx';
+import Header from './Header.jsx';
+import Chatbar from './Chatbar.jsx';
 
 const BotBox = ({ visible }) =>
   <div id="bot" className={visible ? 'slideIn' : 'slideOut'}>

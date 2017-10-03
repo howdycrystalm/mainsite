@@ -9,6 +9,8 @@ import Search from './components/template/search';
 import ChatContainer from './components/chatbot/ChatContainer.jsx';
 import ChatIcon from './components/chatbot/icons/ChatIcon.jsx';
 import OpenBot from './components/chatbot/OpenBot.jsx';
+import Header from './components/chatbot/Header.jsx';
+import Chatbar from './components/chatbot/Chatbar.jsx';
 // Import static pages
 import HomePage from './components/pages/home-page';
 import ContactPage from './components/pages/contact-page';
