@@ -54,13 +54,13 @@ class ChatContainer extends React.Component {
             </svg>
           }
         >
-          <Chatbar sessionId={this.state.id} />
-          <Header resetSession={this.resetSession} />
           {/* note: used id="outer-container" and placed fixed elements (header and chatbar) outside of page-wrap (see below) so they stay fixed instead of scrolling with chatbox */}
           <div id="outer-container">
             <ThemeIcon />
             <FontSizeIcon />
             <LanguageIcon />
+            <Chatbar sessionId={this.state.id} />
+            <Header resetSession={this.resetSession} />
           </div>
         </Menu>
         <main id="page-wrap">
